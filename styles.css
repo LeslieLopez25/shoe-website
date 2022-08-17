@@ -151,7 +151,7 @@ img {
     .nav__menu {
         position: fixed;
         top: var(--header-height);
-        left: 0;
+        left: -100%;
         width: 70%;
         height: 100vh;
         padding: 2rem;
@@ -172,4 +172,9 @@ img {
 .nav__shop {
     font-size: 1.3rem;
     cursor: pointer;
+}
+
+/* SHOW MENU */
+.show {
+    left: 0;
 }
