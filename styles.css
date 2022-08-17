@@ -178,3 +178,19 @@ img {
 .show {
     left: 0;
 }
+
+/* ACTIVE LINK */
+.active {
+    position: relative;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    bottom: -.5rem;
+    left: 45%;
+    width: 4px;
+    height: 4px;
+    background-color: var(--dark-color);
+    border-radius: 50%;
+}
