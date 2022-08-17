@@ -194,3 +194,9 @@ img {
     background-color: var(--dark-color);
     border-radius: 50%;
 }
+
+/* CHANGE COLOR HEADER */
+.scroll-header {
+    background-color: var(--white-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
