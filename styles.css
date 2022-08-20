@@ -659,3 +659,32 @@ img {
         height: max-content;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .bd-grid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home__container {
+        column-gap: 8rem;
+    }
+
+    .collection__container {
+        grid-template-columns: repeat(2, 415px);
+    }
+
+    .new__container {
+        grid-template-columns: max-content 1fr;
+    }
+
+    .new__mens {
+        align-items: initial;
+        justify-content: flex-end;
+        padding: 4rem 2rem;
+    }
+
+    .new__mens-img {
+        margin-bottom: var(--mb-6);
+    }
+}
